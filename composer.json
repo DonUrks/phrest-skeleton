@@ -1,0 +1,12 @@
+{
+  "name": "donurks/phrest-skeleton",
+  "description": "Skeleton phrest application",
+  "autoload": {
+    "psr-4": {
+      "Application\\": "src/Application/"
+    }
+  },
+  "require": {
+    "donurks/phrest": "1.0.0beta1"
+  }
+}
