@@ -25,7 +25,7 @@ return [
             '/swagger',
             \Phrest\Application::ACTION_SWAGGER
         ),
-        //create route for swagger - no explicit action required
+        //create route for errors - no explicit action required
         'errors' => \Phrest\Application::createRoute(
             '/errors',
             \Phrest\Application::ACTION_ERROR_CODES
