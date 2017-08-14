@@ -1,4 +1,4 @@
-# prest-skeleton
+# phrest-skeleton
 
 A skeleton application for [phrest](https://github.com/DonUrks/phrest). 
 
