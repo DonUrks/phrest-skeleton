@@ -30,7 +30,7 @@ return [
             '/errors',
             \Phrest\Application::ACTION_ERROR_CODES
         ),
-        //create route for swagger
+        //create route for messages
         'messages' => \Phrest\Application::createRoute(
             '/messages/{id}',
             \Api\Action\Messages::class
