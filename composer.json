@@ -3,10 +3,10 @@
   "description": "Skeleton phrest application",
   "autoload": {
     "psr-4": {
-      "Application\\": "src/Application/"
+      "Api\\": "src/Api/"
     }
   },
   "require": {
-    "donurks/phrest": "1.0.0beta1"
+    "donurks/phrest": "dev-master"
   }
 }
