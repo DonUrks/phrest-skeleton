@@ -10,7 +10,7 @@ composer require donurks/phrest-skeleton
 
 ## Usage
 
-Run PHP Webserver
+Run PHP Webserver (document root should point to public)
 
 ```sh
 php.exe -S 0.0.0.0:80 -t public
@@ -18,19 +18,19 @@ php.exe -S 0.0.0.0:80 -t public
 
 Call Messages-Action
 
-```sh
+```
 http://localhost/messages/12
 ```
 
 Call Swagger-Action
 
-```sh
+```
 http://localhost/swagger
 ```
 
 Call Errors-Action
 
-```sh
+```
 http://localhost/errors
 ```
 
