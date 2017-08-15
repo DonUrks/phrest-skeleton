@@ -5,7 +5,7 @@ A skeleton application for [phrest](https://github.com/DonUrks/phrest).
 ## Installation ([Composer](https://getcomposer.org/))
 
 ```sh
-composer require donurks/phrest-skeleton:dev-master
+composer require donurks/phrest-skeleton
 ```
 
 ## Usage
