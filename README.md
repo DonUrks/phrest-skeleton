@@ -4,8 +4,11 @@ A skeleton application for [phrest](https://github.com/DonUrks/phrest).
 
 ## Installation ([Composer](https://getcomposer.org/))
 
+Change composers minimum-stability due the lack of a stable release
+
 ```sh
-composer require donurks/phrest-skeleton
+composer config minimum-stability dev
+composer require donurks/phrest-skeleton:dev-master
 ```
 
 ## Usage
