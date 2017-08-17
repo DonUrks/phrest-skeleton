@@ -1,6 +1,7 @@
 {
   "name": "donurks/phrest-skeleton",
   "description": "Skeleton phrest application",
+  "type": "project",
   "autoload": {
     "psr-4": {
       "Api\\": "src/Api/"
@@ -8,5 +9,8 @@
   },
   "require": {
     "donurks/phrest": "dev-master"
+  },
+  "scripts": {
+    "run-webserver": "@php -S 0.0.0.0:8888 -t public"
   }
 }
