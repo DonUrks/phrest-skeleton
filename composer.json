@@ -2,6 +2,19 @@
   "name": "donurks/phrest-skeleton",
   "description": "Skeleton phrest application",
   "type": "project",
+  "license": "MIT",
+  "keywords": ["json", "rest", "api", "hateoas", "swagger"],
+  "homepage": "https://github.com/donurks/phrest-skeleton/",
+  "authors": [
+        {
+            "name": "Eric Müller",
+            "homepage": "https://github.com/donurks"
+        },
+        {
+            "name": "Max Epperlein",
+            "homepage": "https://github.com/manieperplex"
+        }
+  ],
   "autoload": {
     "psr-4": {
       "Api\\": "src/Api/"
