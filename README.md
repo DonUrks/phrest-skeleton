@@ -4,11 +4,8 @@ A skeleton application for [phrest](https://github.com/DonUrks/phrest).
 
 ## Installation ([Composer](https://getcomposer.org/))
 
-Change composers minimum-stability due the lack of a stable release
-
 ```sh
-composer config minimum-stability dev
-composer require donurks/phrest-skeleton:dev-master
+composer create-project --stability dev donurks/phrest-skeleton
 ```
 
 ## Usage
@@ -16,25 +13,26 @@ composer require donurks/phrest-skeleton:dev-master
 Run PHP Webserver (document root should point to public)
 
 ```sh
-php.exe -S 0.0.0.0:80 -t public
+cd phrest-skeleton
+composer run-webserver
 ```
 
 Call Messages-Action
 
 ```
-http://localhost/messages/12
+http://localhost:8888/messages/12
 ```
 
 Call Swagger-Action
 
 ```
-http://localhost/swagger
+http://localhost:8888/swagger
 ```
 
 Call Errors-Action
 
 ```
-http://localhost/errors
+http://localhost:8888/errors
 ```
 
 
