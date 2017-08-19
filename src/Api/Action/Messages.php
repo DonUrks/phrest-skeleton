@@ -6,7 +6,7 @@ namespace Api\Action;
  * @SWG\Info(title="Phrest Skeleton", version="1.0")
  * @SWG\Get(
  *     path="/messages/{id}",
- *     operationId="messages",
+ *     operationId="get.messages",
  *     @SWG\Response(
  *      response="200",
  *      description="An example resource",
